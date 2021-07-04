@@ -9,15 +9,11 @@ You need to just clone the directory and export it's path
 ```bash
 git clone https://github.com/Terminus004/speed-cli.git
 ```
-We can also add it to /usr/local and then add it to path
+We can also add it to /usr/local/bin
 ```bash
-sudo mv speed-cli/ /usr/local/
+sudo mv speed-cli/speed-cli /usr/local/bin
 ```
-To add it in path
-```bash
-export PATH=$PATH:/usr/local/speed-cli
-```
-or
+To add it custom path
 ```bash
 export PATH=$PATH:/your/path/speed-cli
 ```
